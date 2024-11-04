@@ -8,6 +8,6 @@ COPY static ./static
 
 RUN go build -o /belajar-cicd-kayaknya
 
-EXPOSE 3000
+EXPOSE 8080
 
 CMD ["/belajar-cicd-kayaknya"]
